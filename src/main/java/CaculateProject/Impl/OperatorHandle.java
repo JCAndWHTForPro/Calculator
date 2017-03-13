@@ -13,28 +13,32 @@ import java.util.Map;
 public class OperatorHandle implements Handle {
     @Override
     public void handle(char ch) {
-        if(ch == ')'){
+        if (ch == ')') {
             handleBracket();
-        }else if(isLowerOperator(ch)){
+        } else if (isLowerOperator(ch)) {
             String top = StackContainer.operatorStack.pop();
             StackContainer.numberStack.add(top);
             StackContainer.operatorStack.push(String.valueOf(ch));
-        }else {
+        } else {
             StackContainer.operatorStack.push(String.valueOf(ch));
         }
 
     }
 
     private void handleBracket() {
-        String operator = "";
-        while (!(operator = StackContainer.operatorStack.pop()).equals("(")){
+        String operator = null;
+        while (!(operator = StackContainer.operatorStack.pop()).equals("(")) {
             StackContainer.numberStack.add(operator);
         }
     }
 
     private boolean isLowerOperator(char ch) {
-        Map<String,Integer> operatorMap = OperatorContainer.getOperatorMap();
+        Map<String, Integer> operatorMap = OperatorContainer.getOperatorMap();
         LinkedList<String> operatorStack = StackContainer.operatorStack;
-        return !operatorStack.isEmpty() && operatorMap.get(String.valueOf(ch))<= operatorMap.get(operatorStack.peek());
+        return !operatorStack.isEmpty() && operatorMap.get(String.valueOf(ch)) <= operatorMap.get(operatorStack.peek()) && notBracket(operatorStack.peek());
+    }
+
+    private boolean notBracket(String ch) {
+        return !ch.equals("(") && !ch.equals(")");
     }
 }

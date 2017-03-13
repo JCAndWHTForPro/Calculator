@@ -20,6 +20,8 @@ public class App {
                 App.operatorHandle.handle(ch);
             } else if (isNumber(ch)) {
                 App.numberHandle.handle(ch);
+            } else{
+                continue;
             }
         }
         lastOperatorStackToNumberStack();
