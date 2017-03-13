@@ -11,6 +11,6 @@ public class MultiCalculateDeal implements CalculateDeal{
     public void cal() {
         Integer num1 = Integer.parseInt(StackContainer.operatorStack.pop());
         Integer num2 = Integer.parseInt(StackContainer.operatorStack.pop());
-        StackContainer.operatorStack.push(String.valueOf(num1*num2));
+        StackContainer.operatorStack.push(String.valueOf(num2*num1));
     }
 }

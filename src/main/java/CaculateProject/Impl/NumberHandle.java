@@ -1,6 +1,7 @@
 package CaculateProject.Impl;
 
 import CaculateProject.Handle;
+import CaculateProject.OperatorContainer;
 import CaculateProject.StackContainer;
 
 /**
@@ -8,15 +9,7 @@ import CaculateProject.StackContainer;
  */
 public class NumberHandle implements Handle {
     @Override
-    public void handle(char ch) {
-        String top = StackContainer.numberStack.pollLast();
-        if(top == null){
-            StackContainer.numberStack.add(String.valueOf(ch));
-        }else if(top.matches("\\d+")){
-            StackContainer.numberStack.add(top+String.valueOf(ch));
-        }else{
-            StackContainer.numberStack.add(top);
-            StackContainer.numberStack.add(String.valueOf(ch));
-        }
+    public void handle(String ch) {
+        StackContainer.numberStack.add(ch);
     }
 }

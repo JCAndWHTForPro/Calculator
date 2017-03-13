@@ -4,6 +4,7 @@ import CaculateProject.Impl.NumberHandle;
 import CaculateProject.Impl.OperatorHandle;
 
 import java.util.NoSuchElementException;
+import java.util.Set;
 
 /**
  * 算法：算术表达式解析器
@@ -14,14 +15,17 @@ public class App {
 
 
     public Object getResult(String calculate) {
-        for (int i = 0; i < calculate.length(); i++) {
-            char ch = calculate.charAt(i);
-            if (isOperatorChar(ch)) {
-                App.operatorHandle.handle(ch);
-            } else if (isNumber(ch)) {
-                App.numberHandle.handle(ch);
-            } else{
-                continue;
+        StackContainer.numberStack.clear();
+        StackContainer.operatorStack.clear();
+        int i = 0;
+        while (i < calculate.length()) {
+            String keyWord;
+            if ((keyWord = nextOperator(i, calculate)) != null) {
+                i = i + keyWord.length();
+                App.operatorHandle.handle(keyWord);
+            } else if (!(keyWord = nextNumber(i, calculate)).equals("")) {
+                i = i + keyWord.length();
+                App.numberHandle.handle(keyWord);
             }
         }
         lastOperatorStackToNumberStack();
@@ -33,7 +37,6 @@ public class App {
             try {
                 StackContainer.numberStack.add(StackContainer.operatorStack.pop());
             } catch (NoSuchElementException e) {
-                e.printStackTrace();
                 return;
             }
         }
@@ -51,11 +54,23 @@ public class App {
         return StackContainer.operatorStack.pop();
     }
 
-    private boolean isOperatorChar(char ch) {
-        return OperatorContainer.getOperatorMap().keySet().contains(String.valueOf(ch));
+    private String nextOperator(int index, String expression) {
+        Set<String> keySet = OperatorContainer.getOperatorMap().keySet();
+        for (String key : keySet) {
+            int end = index + key.length();
+            if (key.equals(expression.substring(index, end))) {
+                return key;
+            }
+        }
+        return null;
     }
 
-    private boolean isNumber(char ch) {
-        return String.valueOf(ch).matches("\\w+");
+    private String nextNumber(int index, String expression) {
+        StringBuilder sb = new StringBuilder("");
+        while (expression.charAt(index) >= 48 && expression.charAt(index) <= 57) {
+            sb.append(expression.charAt(index));
+            index++;
+        }
+        return sb.toString();
     }
 }

@@ -11,7 +11,7 @@ public class AppTest
     @Test
     public void testGetResult(){
         App app = new App();
-        Assert.assertEquals(9,Integer.parseInt(app.getResult("4+(2+4)-4*5+9-8/4*(3+6)"  ).toString()));
+        Assert.assertEquals(-17,Integer.parseInt(app.getResult("4+(2*4)-4*5+9-8/4*(3+6)"  ).toString()));
     }
 
     public static void main(String[] args) {
