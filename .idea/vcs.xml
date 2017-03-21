@@ -2,5 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cmactivation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cmcommon-api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cmmodel" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../cmsimu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../currentarea" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../iuicurr" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../iuinemodelmng" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../nemodelmng" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../plannedarea" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../plannedmng" vcs="Git" />
   </component>
 </project>

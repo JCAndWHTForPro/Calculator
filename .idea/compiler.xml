@@ -7,10 +7,63 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CaculateProject" />
+        <module name="cm-auto-regist-microservice" />
+        <module name="cm-common" />
+        <module name="cm-file-cleaner-api" />
+        <module name="cm-mo-data-manager" />
+        <module name="cm-model-api" />
+        <module name="cm-model-app" />
+        <module name="cm-model-client" />
+        <module name="cm-model-parser" />
+        <module name="cm-restfulfilter-api" />
+        <module name="cm-taskmng-api" />
+        <module name="cmactivation" />
+        <module name="currentarea" />
+        <module name="iuicurr" />
+        <module name="iuinemodelmng" />
+        <module name="mdcalculator" />
+        <module name="ModelChecker" />
+        <module name="nemodelmng" />
+        <module name="plannedarea" />
+        <module name="plannedmng" />
+        <module name="simulate-bootstrap" />
+        <module name="simulate-common" />
+        <module name="simulate-netconf-server" />
+        <module name="simulate-nf" />
+        <module name="simulate-sal" />
+        <module name="simulate-topo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="CaculateProject" target="1.8" />
+      <module name="cm-auto-regist-microservice" target="1.8" />
+      <module name="cm-common" target="1.8" />
+      <module name="cm-file-cleaner-api" target="1.8" />
+      <module name="cm-mo-data-manager" target="1.8" />
+      <module name="cm-model-api" target="1.8" />
+      <module name="cm-model-app" target="1.8" />
+      <module name="cm-model-client" target="1.8" />
+      <module name="cm-model-parser" target="1.8" />
+      <module name="cm-restfulfilter-api" target="1.8" />
+      <module name="cm-taskmng-api" target="1.8" />
+      <module name="cmactivation" target="1.8" />
+      <module name="cmcommon-api" target="1.8" />
+      <module name="cmmodel" target="1.8" />
+      <module name="cmsimu" target="1.8" />
+      <module name="currentarea" target="1.8" />
+      <module name="iuicurr" target="1.8" />
+      <module name="iuinemodelmng" target="1.8" />
+      <module name="mdcalculator" target="1.8" />
+      <module name="ModelChecker" target="1.8" />
+      <module name="nemodelmng" target="1.8" />
+      <module name="plannedarea" target="1.8" />
+      <module name="plannedmng" target="1.8" />
+      <module name="simulate-bootstrap" target="1.8" />
+      <module name="simulate-common" target="1.8" />
+      <module name="simulate-netconf-server" target="1.8" />
+      <module name="simulate-nf" target="1.8" />
+      <module name="simulate-sal" target="1.8" />
+      <module name="simulate-topo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zte.ums.zenap.swagger:zenap-swagger:1.16.10.02">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/swagger/zenap-swagger/1.16.10.02/zenap-swagger-1.16.10.02.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/swagger/zenap-swagger/1.16.10.02/zenap-swagger-1.16.10.02-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/swagger/zenap-swagger/1.16.10.02/zenap-swagger-1.16.10.02-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

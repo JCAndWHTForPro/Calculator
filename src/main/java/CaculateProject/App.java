@@ -4,7 +4,6 @@ import CaculateProject.Impl.NumberHandle;
 import CaculateProject.Impl.OperatorHandle;
 
 import java.util.NoSuchElementException;
-import java.util.Set;
 
 /**
  * 算法：算术表达式解析器
@@ -26,6 +25,8 @@ public class App {
             } else if (!(keyWord = nextNumber(i, calculate)).equals("")) {
                 i = i + keyWord.length();
                 App.numberHandle.handle(keyWord);
+            } else{
+                i++;
             }
         }
         lastOperatorStackToNumberStack();
@@ -55,10 +56,9 @@ public class App {
     }
 
     private String nextOperator(int index, String expression) {
-        Set<String> keySet = OperatorContainer.getOperatorMap().keySet();
-        for (String key : keySet) {
+        for (String key : OperatorContainer.getOperatorMap().keySet()) {
             int end = index + key.length();
-            if (key.equals(expression.substring(index, end))) {
+            if (end <= expression.length() && key.equals(expression.substring(index, end))) {
                 return key;
             }
         }
@@ -67,10 +67,19 @@ public class App {
 
     private String nextNumber(int index, String expression) {
         StringBuilder sb = new StringBuilder("");
-        while (expression.charAt(index) >= 48 && expression.charAt(index) <= 57) {
+        while (index < expression.length() && !isBeginWithOperator(expression.substring(index))) {
             sb.append(expression.charAt(index));
             index++;
         }
-        return sb.toString();
+        return sb.toString().trim();
+    }
+
+    private boolean isBeginWithOperator(String subExpression) {
+        for (String operator : OperatorContainer.getOperatorMap().keySet()) {
+            if (subExpression.startsWith(operator)) {
+                return true;
+            }
+        }
+        return false;
     }
 }

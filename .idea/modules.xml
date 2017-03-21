@@ -3,6 +3,34 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CaculateProject.iml" filepath="$PROJECT_DIR$/CaculateProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../model-tools/modelChecker/ModelChecker.iml" filepath="$PROJECT_DIR$/../model-tools/modelChecker/ModelChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmcommon-api/cm-auto-regist-microservice/cm-auto-regist-microservice.iml" filepath="$PROJECT_DIR$/../cmcommon-api/cm-auto-regist-microservice/cm-auto-regist-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmcommon-api/cm-common/cm-common.iml" filepath="$PROJECT_DIR$/../cmcommon-api/cm-common/cm-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmcommon-api/cm-file-cleaner-api/cm-file-cleaner-api.iml" filepath="$PROJECT_DIR$/../cmcommon-api/cm-file-cleaner-api/cm-file-cleaner-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmcommon-api/cm-mo-data-manager/cm-mo-data-manager.iml" filepath="$PROJECT_DIR$/../cmcommon-api/cm-mo-data-manager/cm-mo-data-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmcommon-api/cm-model-api/cm-model-api.iml" filepath="$PROJECT_DIR$/../cmcommon-api/cm-model-api/cm-model-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmmodel/cm-model-app/cm-model-app.iml" filepath="$PROJECT_DIR$/../cmmodel/cm-model-app/cm-model-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmcommon-api/cm-model-client/cm-model-client.iml" filepath="$PROJECT_DIR$/../cmcommon-api/cm-model-client/cm-model-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmmodel/cm-model-parser/cm-model-parser.iml" filepath="$PROJECT_DIR$/../cmmodel/cm-model-parser/cm-model-parser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmcommon-api/cm-restfulfilter-api/cm-restfulfilter-api.iml" filepath="$PROJECT_DIR$/../cmcommon-api/cm-restfulfilter-api/cm-restfulfilter-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmcommon-api/cm-taskmng-api/cm-taskmng-api.iml" filepath="$PROJECT_DIR$/../cmcommon-api/cm-taskmng-api/cm-taskmng-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmactivation/cmactivation.iml" filepath="$PROJECT_DIR$/../cmactivation/cmactivation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmcommon-api/cmcommon-api.iml" filepath="$PROJECT_DIR$/../cmcommon-api/cmcommon-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmmodel/cmmodel.iml" filepath="$PROJECT_DIR$/../cmmodel/cmmodel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmsimu/cmsimu.iml" filepath="$PROJECT_DIR$/../cmsimu/cmsimu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../currentarea/currentarea.iml" filepath="$PROJECT_DIR$/../currentarea/currentarea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../iuicurr/iuicurr.iml" filepath="$PROJECT_DIR$/../iuicurr/iuicurr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../iuinemodelmng/iuinemodelmng.iml" filepath="$PROJECT_DIR$/../iuinemodelmng/iuinemodelmng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../model-tools/mdcalculator/mdcalculator.iml" filepath="$PROJECT_DIR$/../model-tools/mdcalculator/mdcalculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nemodelmng/nemodelmng.iml" filepath="$PROJECT_DIR$/../nemodelmng/nemodelmng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../plannedarea/plannedarea.iml" filepath="$PROJECT_DIR$/../plannedarea/plannedarea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../plannedmng/plannedmng.iml" filepath="$PROJECT_DIR$/../plannedmng/plannedmng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmsimu/simulate-bootstrap/simulate-bootstrap.iml" filepath="$PROJECT_DIR$/../cmsimu/simulate-bootstrap/simulate-bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmsimu/simulate-common/simulate-common.iml" filepath="$PROJECT_DIR$/../cmsimu/simulate-common/simulate-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmsimu/simulate-netconf-server/simulate-netconf-server.iml" filepath="$PROJECT_DIR$/../cmsimu/simulate-netconf-server/simulate-netconf-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmsimu/simulate-nf/simulate-nf.iml" filepath="$PROJECT_DIR$/../cmsimu/simulate-nf/simulate-nf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmsimu/simulate-sal/simulate-sal.iml" filepath="$PROJECT_DIR$/../cmsimu/simulate-sal/simulate-sal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cmsimu/simulate-topo/simulate-topo.iml" filepath="$PROJECT_DIR$/../cmsimu/simulate-topo/simulate-topo.iml" />
     </modules>
   </component>
 </project>

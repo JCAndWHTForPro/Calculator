@@ -4,6 +4,18 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../cmactivation/pom.xml" />
+        <option value="$PROJECT_DIR$/../cmcommon-api/pom.xml" />
+        <option value="$PROJECT_DIR$/../cmmodel/pom.xml" />
+        <option value="$PROJECT_DIR$/../cmsimu/pom.xml" />
+        <option value="$PROJECT_DIR$/../currentarea/pom.xml" />
+        <option value="$PROJECT_DIR$/../iuicurr/pom.xml" />
+        <option value="$PROJECT_DIR$/../iuinemodelmng/pom.xml" />
+        <option value="$PROJECT_DIR$/../model-tools/mdcalculator/pom.xml" />
+        <option value="$PROJECT_DIR$/../model-tools/modelChecker/pom.xml" />
+        <option value="$PROJECT_DIR$/../nemodelmng/pom.xml" />
+        <option value="$PROJECT_DIR$/../plannedarea/pom.xml" />
+        <option value="$PROJECT_DIR$/../plannedmng/pom.xml" />
       </list>
     </option>
   </component>

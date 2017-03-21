@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zte.ums.zenap.kafka:zenap-kafka:5.10.20.B3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/kafka/zenap-kafka/5.10.20.B3-SNAPSHOT/zenap-kafka-5.10.20.B3-20161124.103208-254.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/kafka/zenap-kafka/5.10.20.B3-SNAPSHOT/zenap-kafka-5.10.20.B3-20161124.103208-254-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/kafka/zenap-kafka/5.10.20.B3-SNAPSHOT/zenap-kafka-5.10.20.B3-20161124.103208-254-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zte.ums.cnms:cm-active-api:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/cnms/cm-active-api/1.0-SNAPSHOT/cm-active-api-1.0-20160720.020221-1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/cnms/cm-active-api/1.0-SNAPSHOT/cm-active-api-1.0-20160720.020221-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/cnms/cm-active-api/1.0-SNAPSHOT/cm-active-api-1.0-20160720.020221-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zte.ums.zenap.i18n:zenap-i18n:5.10.20.B4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/i18n/zenap-i18n/5.10.20.B4/zenap-i18n-5.10.20.B4.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/i18n/zenap-i18n/5.10.20.B4/zenap-i18n-5.10.20.B4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/i18n/zenap-i18n/5.10.20.B4/zenap-i18n-5.10.20.B4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zte.ums.zenap.swagger:zenap-msb-register:1.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/swagger/zenap-msb-register/1.0.1-SNAPSHOT/zenap-msb-register-1.0.1-20160405.013707-28.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/swagger/zenap-msb-register/1.0.1-SNAPSHOT/zenap-msb-register-1.0.1-20160405.013707-28-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/swagger/zenap-msb-register/1.0.1-SNAPSHOT/zenap-msb-register-1.0.1-20160405.013707-28-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

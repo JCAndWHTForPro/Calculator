@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zte.ums.zenap.zenap-fm:fm-common:1.17.10.02-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/zenap-fm/fm-common/1.17.10.02-SNAPSHOT/fm-common-1.17.10.02-20170125.065420-226.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/zenap-fm/fm-common/1.17.10.02-SNAPSHOT/fm-common-1.17.10.02-20170125.065420-226-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/zenap-fm/fm-common/1.17.10.02-SNAPSHOT/fm-common-1.17.10.02-20170125.065420-226-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

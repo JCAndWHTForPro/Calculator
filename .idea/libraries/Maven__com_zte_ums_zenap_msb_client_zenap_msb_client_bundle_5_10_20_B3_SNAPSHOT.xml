@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zte.ums.zenap.msb.client:zenap-msb-client-bundle:5.10.20.B3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/msb/client/zenap-msb-client-bundle/5.10.20.B3-SNAPSHOT/zenap-msb-client-bundle-5.10.20.B3-20161124.103038-263.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/msb/client/zenap-msb-client-bundle/5.10.20.B3-SNAPSHOT/zenap-msb-client-bundle-5.10.20.B3-20161124.103038-263-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/msb/client/zenap-msb-client-bundle/5.10.20.B3-SNAPSHOT/zenap-msb-client-bundle-5.10.20.B3-20161124.103038-263-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

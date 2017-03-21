@@ -2,5 +2,33 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmactivation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmcommon-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmcommon-api/cm-auto-regist-microservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmcommon-api/cm-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmcommon-api/cm-file-cleaner-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmcommon-api/cm-mo-data-manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmcommon-api/cm-model-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmcommon-api/cm-model-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmcommon-api/cm-restfulfilter-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmcommon-api/cm-taskmng-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmmodel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmmodel/cm-model-app" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmmodel/cm-model-parser" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmsimu" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmsimu/simulate-bootstrap" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmsimu/simulate-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmsimu/simulate-netconf-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmsimu/simulate-nf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmsimu/simulate-sal" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../cmsimu/simulate-topo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../currentarea" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../iuicurr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../iuinemodelmng" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../model-tools/mdcalculator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../model-tools/modelChecker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../nemodelmng" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../plannedarea" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../plannedmng" charset="UTF-8" />
   </component>
 </project>

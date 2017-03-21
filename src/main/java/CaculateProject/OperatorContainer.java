@@ -1,10 +1,7 @@
 package CaculateProject;
 
 import CaculateProject.Impl.dealcalc.CalculateDeal;
-import CaculateProject.Impl.dealcalc.Impl.DivisionCalculateDeal;
-import CaculateProject.Impl.dealcalc.Impl.MinusCalculateDeal;
-import CaculateProject.Impl.dealcalc.Impl.MultiCalculateDeal;
-import CaculateProject.Impl.dealcalc.Impl.PlusCalculateDeal;
+import CaculateProject.Impl.dealcalc.Impl.*;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -32,6 +29,8 @@ public class OperatorContainer {
         operatorMap.put("/", 20);
         operatorMap.put("-", 19);
         operatorMap.put("+", 19);
+        operatorMap.put(" and ", 18);
+        operatorMap.put(" or ", 18);
         operatorMap.put("(", Integer.MAX_VALUE);
         operatorMap.put(")", Integer.MAX_VALUE);
 
@@ -39,5 +38,7 @@ public class OperatorContainer {
         calculateDealMap.put("-", new MinusCalculateDeal());
         calculateDealMap.put("*", new MultiCalculateDeal());
         calculateDealMap.put("/", new DivisionCalculateDeal());
+        calculateDealMap.put(" or ", new OrOperatorDeal());
+        calculateDealMap.put(" and ", new AndOperatorDeal());
     }
 }

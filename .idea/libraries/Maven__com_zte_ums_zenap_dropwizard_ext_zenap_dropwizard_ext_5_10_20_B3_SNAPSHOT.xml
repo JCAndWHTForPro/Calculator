@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zte.ums.zenap.dropwizard.ext:zenap-dropwizard-ext:5.10.20.B3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/dropwizard/ext/zenap-dropwizard-ext/5.10.20.B3-SNAPSHOT/zenap-dropwizard-ext-5.10.20.B3-20161124.103033-263.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/dropwizard/ext/zenap-dropwizard-ext/5.10.20.B3-SNAPSHOT/zenap-dropwizard-ext-5.10.20.B3-20161124.103033-263-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/dropwizard/ext/zenap-dropwizard-ext/5.10.20.B3-SNAPSHOT/zenap-dropwizard-ext-5.10.20.B3-20161124.103033-263-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

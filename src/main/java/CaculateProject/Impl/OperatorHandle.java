@@ -15,14 +15,19 @@ public class OperatorHandle implements Handle {
     public void handle(String ch) {
         if (")".equals(ch)) {
             handleBracket();
-        } else if (isLowerOperator(ch)) {
-            String top = StackContainer.operatorStack.pop();
-            StackContainer.numberStack.add(top);
-            StackContainer.operatorStack.push(ch);
         } else {
-            StackContainer.operatorStack.push(ch);
+            operatorSink(ch);
         }
 
+    }
+
+
+    private void operatorSink(String ch) {
+        while (isLowerOperator(ch)) {
+            String top = StackContainer.operatorStack.pop();
+            StackContainer.numberStack.add(top);
+        }
+        StackContainer.operatorStack.push(ch);
     }
 
     private void handleBracket() {
@@ -35,7 +40,7 @@ public class OperatorHandle implements Handle {
     private boolean isLowerOperator(String ch) {
         Map<String, Integer> operatorMap = OperatorContainer.getOperatorMap();
         LinkedList<String> operatorStack = StackContainer.operatorStack;
-        return !operatorStack.isEmpty() && operatorMap.get(ch) < operatorMap.get(operatorStack.peek()) && notBracket(operatorStack.peek());
+        return !operatorStack.isEmpty() && operatorMap.get(ch) <= operatorMap.get(operatorStack.peek()) && notBracket(operatorStack.peek());
     }
 
     private boolean notBracket(String ch) {

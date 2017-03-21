@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.zte.ums.zenap.msb.components:msb-service:5.10.20.B4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/msb/components/msb-service/5.10.20.B4-SNAPSHOT/msb-service-5.10.20.B4-20170103.085346-22.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/msb/components/msb-service/5.10.20.B4-SNAPSHOT/msb-service-5.10.20.B4-20170103.085346-22-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/zte/ums/zenap/msb/components/msb-service/5.10.20.B4-SNAPSHOT/msb-service-5.10.20.B4-20170103.085346-22-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
